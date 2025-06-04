@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Hello World</h1>
+
+    <p class="note">Note 1</p>
+    <p class="note">Note 2</p>
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <div class="box">First Box</div>
+    <div class="box">Second Box</div>
+
+    <div id="box">Second Box</div>
+    <div id="box">First Box</div>
+
+    <p class="text">One</p>
+    <p class="text">Two</p>
+    <p class="text">Three</p>
+    <p class="text">Four</p>
+    <p class="text">Five</p>
+
+    <script>
+      // 1. id
+      const title = document.getElementById("title");
+      console.log(title.textContent);
+
+      // 2. class
+      const note = document.getElementsByClassName("note");
+      console.log(note[0].textContent);
+      console.log(note[1].textContent);
+
+      // 3. tag
+      const item = document.getElementsByTagName("li");
+      console.log(item.length);
+
+      // 4. querySelector
+      const boxClass = document.querySelector(".box"); // ! Don't forget dot(class) or hastaage(id)
+      console.log(boxClass.textContent);
+      const boxId = document.querySelector("#box"); // ! Don't forget dot(class) or hastaage(id)
+      console.log(boxId.textContent);
+
+      // 5. querySelectorAll
+      const text = document.querySelectorAll(".text"); // ! Don't forget dot(class) or hastaage(id)
+      text.forEach((item) => console.log(item.textContent)); // Loop through NodeList
+      // Manual console
+      console.log(text[0].textContent);
+      console.log(text[1].textContent);
+      console.log(text[2].textContent);
+      console.log(text[3].textContent);
+      console.log(text[4].textContent);
+    </script>
+  </body>
+</html>
