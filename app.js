@@ -108,23 +108,18 @@ const passed = students.filter((student) => student.score >= 60);
 
 console.log(passed);
 
-// TODO 3. reduce()
-const total = students.reduce((sum, student) => {
-  sum + student.score;
-}, 0);
-console.log(total); // 302
-
 // TODO 4. find()
 const failed = students.find((student) => student.score < 60);
 console.log(failed); // { name: "Bob", subject: "C++" score: 55 }
 //#endregion
 
-//#region 5. Destructuring
+//#region 6. Destructuring
 // ? Destructuring
 const colors = ["red", "green", "blue"];
 
 // * Old way
 const first = colors[0]; // "red"
+console.log(first);
 
 // * Destructuring
 const [item1, item2] = colors;
@@ -144,26 +139,61 @@ console.log(userName); // "Alex"
 console.log(userCity); // ”Paris”
 //#endregion
 
-//#region 6. Asynchronous async/await
+//#region 7. Asynchronous async/await
 // ? Asynchronous async/await
-const delay = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+// * Synchronous
+const task1 = () => {
+  const start = Date.now();
+  while (Date.now() - start < 1000) {} // ! wait 1s
+  console.log("Task 1 completed");
 };
 
-const showSteps = async () => {
-  console.log("Step 1: Start");
-  await delay(1000); // wait 1 second
-
-  console.log("Step 2: Loading...");
-  await delay(2000); // wait 2 second
-
-  console.log("Step 3: Done!");
+const task2 = () => {
+  const start = Date.now();
+  while (Date.now() - start < 2000) {} // ! wait 2s
+  console.log("Task 2 completed");
 };
 
-showSteps();
+const task3 = () => {
+  const start = Date.now();
+  while (Date.now() - start < 500) {} // ! wait 0.5s
+  console.log("Task 3 completed");
+};
+
+task1();
+task2();
+task3();
+
+// * Asynchronous with async/await
+const chore1 = () => {
+  const result = setTimeout(() => {
+    console.log("Task 1 completed");
+  }, 1000);
+
+  return result;
+};
+
+const chore2 = () => {
+  const result = setTimeout(() => {
+    console.log("Task 2 completed");
+  }, 2000);
+  return result;
+};
+
+const chore3 = () => {
+  const result = setTimeout(() => {
+    console.log("Task 3 completed");
+  }, 500);
+  return result;
+};
+
+chore1();
+chore2();
+chore3();
+
 //#endregion
 
-//#region 7. Modules import/export
+//#region 8. Modules import/export
 // ? Modules import/export
 import { PI, greeting } from "./math.js";
 
