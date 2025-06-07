@@ -4,14 +4,14 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ## Lesson Titles
 
-1. [🔹 1. Variables](#1-variables)
-2. [🔹 2. Literal Template](#2-literal-template)
-3. [🔹 3. DOM](#3-dom)
-4. [🔹 4. Arrow Functions](#4-arrow-functions)
-5. [🔹 5. Arrays](#5-arrays)
-6. [🔹 6. Destructuring](#6-destructuring)
-7. [🔹 7. Asynchronous JavaScript (async/await)](#7-asynchronous)
-8. [🔹 8. Modules: Import & Export](#8-modules-import--export)
+1. [Variables](#1-variables)
+2. [Literal Template](#2-literal-template)
+3. [DOM](#3-dom)
+4. [Arrow Functions](#4-arrow-functions)
+5. [Arrays](#5-arrays)
+6. [Destructuring](#6-destructuring)
+7. [Asynchronous JavaScript (async/await)](#7-asynchronous)
+8. [8. Modules: Import & Export](#8-modules-import--export)
 
 ---
 
