@@ -4,7 +4,7 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ---
 
-<br>
+<br><br>
 
 ## 🔹 1. Variables
 
@@ -34,7 +34,7 @@ console.log(age); // Still 20, but assignment throws error above
 
 ---
 
-<br>
+<br><br>
 
 ## 🔹 2. Literal Template
 
@@ -58,7 +58,7 @@ console.log(fullName);
 
 ---
 
-<br>
+<br><br>
 
 ## 🔹 3. DOM Manipulation
 
@@ -139,15 +139,17 @@ Learn how to access and manipulate HTML elements using JavaScript DOM methods li
 
 ---
 
-<br>
+<br><br>
 
 ## 🔹 4. Arrow Functions
 
 ### Description
 
-Arrow functions (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
+**Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
 
 ---
+
+<br>
 
 ### Code Example: Trandition
 
@@ -164,6 +166,8 @@ console.log(greet("Jinro"));
 
 ---
 
+<br>
+
 ### Code Example: Arrow function (long form)
 
 ```js
@@ -179,6 +183,8 @@ console.log(greetArrow("Bro"));
 
 ---
 
+<br>
+
 ### Code Example: Arrow function (short form)
 
 > **Note:** Arrow function shorthand works **only** when returning a single expression.  
@@ -186,18 +192,24 @@ console.log(greetArrow("Bro"));
 
 ```js
 const greetShort = (name) => "Welcome mr." + name;
-console.log(greetShort("Jame")); // Output: Welcome mr.Jame
+console.log(greetShort("Jame"));
 ```
+
+### Output
+
+> Output: Welcome mr.Jame
+
+---
+
+<br><br>
+
+## 🔹 5. Arrays in JavaScript
+
+**Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
 
 ---
 
 <br>
-
-## 🔹 5. Arrays in JavaScript
-
-Arrays allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
-
----
 
 ### 👥 5.1 Basic Arrays
 
@@ -215,7 +227,13 @@ console.log(numbers); // [1, 2, 3, 4, 5]
 console.log(mixedArray); // ["Hello", 42, true, null]
 ```
 
+### Output
+
+> ["Apple", "Banana", "Cherry"] <br> [1, 2, 3, 4, 5] <br> ["Hello", 42, true, null]
+
 ---
+
+<br>
 
 ### 📦 5.2 Arrays of Objects
 
@@ -233,7 +251,13 @@ console.log(people[0].name); // Layla
 console.log(people[1].age); // 20
 ```
 
+### Output
+
+> Layla <br> 20
+
 ---
+
+<br>
 
 ### 🧩 5.3 Nested Objects in Arrays
 
@@ -257,7 +281,13 @@ console.log(personInfo.address.street); // 20TY
 console.log(personInfo.address.country); // Japan
 ```
 
+### Output
+
+> Tokyo <br> 20YT <br> Japan
+
 ---
+
+<br>
 
 ### 🛠️ 5.4 Array Methods
 
@@ -276,12 +306,17 @@ const result = students.map((student) => {
 });
 
 console.log(result);
-// ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 ```
+
+### Output
+
+> ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 
 ---
 
-### 🔄 Array Methods - map()
+<br>
+
+### 🔄 5. Array Methods - map()
 
 Transforms every item in an array and returns a new array.
 
@@ -298,12 +333,17 @@ const result = students.map((student) => {
 });
 
 console.log(result);
-// Output: ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 ```
+
+### Output
+
+> ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 
 ---
 
-### ✅ Array Methods - filter()
+<br>
+
+### ✅ 5. Array Methods - filter()
 
 Filters items by condition and returns a new array with the matches.
 
@@ -312,12 +352,17 @@ Filters items by condition and returns a new array with the matches.
 ```js
 const passed = students.filter((student) => student.score >= 60);
 console.log(passed);
-// Output: [{ name: "Alice", subject: "C#", score: 85 }]
 ```
+
+### Output
+
+> [{ name: "Alice", subject: "C#", score: 85 }]
 
 ---
 
-### 🔍 Array Methods = find()
+<br>
+
+### 🔍 5. Array Methods = find()
 
 Finds and returns the first match only (not all like filter).
 
@@ -326,24 +371,94 @@ Finds and returns the first match only (not all like filter).
 ```js
 const failed = students.find((student) => student.score < 60);
 console.log(failed);
-// Output: { name: "Bob", subject: "C++", score: 55 }
 ```
 
+### Output
+
+> { name: "Bob", subject: "C++", score: 55 }
+
+---
+
+<br><br>
+
+## 6. Destructuring
+
+This document demonstrates how to use **destructuring** in JavaScript with arrays and objects.
+
+<br>
+
+### 📦 6.1 Array Destructuring
+
+Traditional Way (Old Method)
+
+```js
+const colors = ["red", "green", "blue"];
+
+const first = colors[0]; // "red"
+console.log(first);
+```
+
+### Output
+
+> red
+
 ---
 
 <br>
 
-## ⚙️ 6. Destructuring
+✅ Destructuring Arrays
+
+```js
+const [item1, item2] = colors;
+console.log(item1); // "red"
+console.log(item2); // "green"
+```
+
+### Output
+
+> red <br> green
 
 ---
 
 <br>
+
+✅ Skipping Items in Array Destructuring
+
+```js
+const [color1, , color3] = colors;
+console.log(color1); // "red"
+console.log(color3); // "blue"
+```
+
+### Output
+
+> red <br> blue
+
+✅ Object Destructuring with Renaming
+
+```js
+const user = { name: "Alex", age: 30, city: "Paris" };
+
+const { name: userName, city: userCity } = user;
+console.log(userName); // "Alex"
+console.log(userCity); // "Paris"
+```
+
+### Output
+
+> Alex <br> Paris
+
+---
+
+<br><br>
 
 ## ⚙️ 7. Asynchronous JavaScript (async/await)
 
 JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
 
 ---
+
+<br>
 
 ### ⏱️ 7.1 Synchronous
 
@@ -373,7 +488,13 @@ task2(); // Then takes 2s
 task3(); // Then takes 0.5s
 ```
 
+### Output
+
+> Task 1 completed <br> Task 2 completed <br> Task 3 completed
+
 ---
+
+<br>
 
 ### ⏱️ 7.2 Asynchronous (async/await)
 
@@ -405,9 +526,13 @@ chore2(); // Starts and waits 2s (in background)
 chore3(); // Starts and waits 0.5s (in background)
 ```
 
+### Output
+
+> Task 3 completed <br> Task 1 completed <br> Task 2 completed
+
 ---
 
-<br>
+<br><br>
 
 ## 🔗 8. Modules: Import & Export
 
@@ -415,18 +540,65 @@ Modules allow you to split JavaScript code into multiple files and share variabl
 
 ---
 
-### 🗂️ 8 File Structure
+<br>
 
-### 📄 8.2 math.js (Module File)
+### 8.1 Single **export** & **import**
 
-Export constants and functions that other files can import.
+Used to export a **single** value (default export).
+
+### 🗂️ File: **utils.js**
 
 ```js
-// math.js
+export const add = (a, b) => a + b;
+export const subtract = (a, b) => a - b;
+```
 
+### 🗂️ File: **index.js**
+
+```js
+import { add, subtract } from "./utils.js";
+
+console.log(add(2, 3));
+console.log(subject(5, 10));
+```
+
+### Output
+
+> 5 <br> -5
+
+---
+
+<br>
+
+### 8.2 Multiple **export** & **import**
+
+Used to export a **multiple** values.
+
+### 🗂️ File: **math.js**
+
+```js
 export const PI = 3.14;
 
 export function greeting(name) {
   return `Hello, ${name}!`;
 }
 ```
+
+---
+
+### 🗂️ File: **index.js**
+
+```js
+import { PI, greeting } from "./math.js";
+
+console.log(PI);
+console.log(greeting("Alice"));
+```
+
+### Output
+
+> 3.14 <br> Hello, Alice!
+
+---
+
+<br>
