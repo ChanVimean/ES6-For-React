@@ -2,6 +2,24 @@
 
 A concise guide to modern JavaScript (ES6 and beyond), with explanations and code examples. Useful for learners, reviewers, and instructors.
 
+## Lesson Titles
+
+> ## 🔹 1. Variables
+>
+> ## 🔹 2. Literal Template
+>
+> ## 🔹 3. DOM
+>
+> ## 🔹 4. Arrow Function
+>
+> ## 🔹 5. Arrays
+>
+> ## 🔹 6. Destructuring
+>
+> ## 🔹 7. Asynchronous
+>
+> ## 🔹 8. Module import/export
+
 ---
 
 <br><br>
