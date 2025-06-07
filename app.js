@@ -31,7 +31,7 @@ console.log(fullName); // Output: John son
 // TODO Navigate to the HTML file to see the DOM manipulation code
 //#endregion
 
-//#region 4. Functions
+//#region 4. Arrow Function
 // ? Arrow Functions (=>)
 // * Old
 function greet(name) {
