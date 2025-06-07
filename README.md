@@ -4,21 +4,21 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ## Lesson Titles
 
-> ## 🔹 1. Variables
+> ## [🔹 1. Variables](#-1-variables)
 >
-> ## 🔹 2. Literal Template
+> ## [🔹 2. Literal Template](#-2-literal-template)
 >
-> ## 🔹 3. DOM
+> ## [🔹 3. DOM](#-3-dom)
 >
-> ## 🔹 4. Arrow Function
+> ## [🔹 4. Arrow Functions](#-4-arrow-functions)
 >
-> ## 🔹 5. Arrays
+> ## [🔹 5. Arrays in JavaScript](#-5-arrays-in-javascript)
 >
-> ## 🔹 6. Destructuring
+> ## [🔹 6. Destructuring](#-6-destructuring)
 >
-> ## 🔹 7. Asynchronous
+> ## [🔹 7. Asynchronous JavaScript (async/await)](#-7-asynchronous-javascript-asyncawait)
 >
-> ## 🔹 8. Module import/export
+> ## [🔹 8. Modules: Import & Export](#-8-modules-import--export)
 
 ---
 
@@ -78,7 +78,7 @@ console.log(fullName);
 
 <br><br>
 
-## 🔹 3. DOM Manipulation
+## 🔹 3. DOM
 
 ### Description
 
@@ -399,7 +399,7 @@ console.log(failed);
 
 <br><br>
 
-## 6. Destructuring
+## 🔹 6. Destructuring
 
 This document demonstrates how to use **destructuring** in JavaScript with arrays and objects.
 
@@ -470,7 +470,7 @@ console.log(userCity); // "Paris"
 
 <br><br>
 
-## ⚙️ 7. Asynchronous JavaScript (async/await)
+## 🔹 7. Asynchronous JavaScript (async/await)
 
 JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
 
@@ -552,7 +552,7 @@ chore3(); // Starts and waits 0.5s (in background)
 
 <br><br>
 
-## 🔗 8. Modules: Import & Export
+## 🔹 8. Modules: Import & Export
 
 Modules allow you to split JavaScript code into multiple files and share variables, functions, or classes between them.
 
