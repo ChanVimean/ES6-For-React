@@ -4,6 +4,8 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ---
 
+<br>
+
 ## 🔹 1. Variables
 
 ### Description
@@ -32,6 +34,8 @@ console.log(age); // Still 20, but assignment throws error above
 
 ---
 
+<br>
+
 ## 🔹 2. Literal Template
 
 ### Description
@@ -45,10 +49,16 @@ let firstName = "John";
 let lastName = "son";
 let fullName = `Fullname: ${firstName} ${lastName}`;
 
-console.log(fullName); // Output: Fullname: John son
+console.log(fullName);
 ```
 
+### Output
+
+> Fullname: John son
+
 ---
+
+<br>
 
 ## 🔹 3. DOM Manipulation
 
@@ -129,33 +139,59 @@ Learn how to access and manipulate HTML elements using JavaScript DOM methods li
 
 ---
 
+<br>
+
 ## 🔹 4. Arrow Functions
 
 ### Description
 
 Arrow functions (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
 
-### Code Example
+---
+
+### Code Example: Trandition
 
 ```js
-// * Traditional function
 function greet(name) {
-  return "Hello" + name;
+  return "Hello " + name;
 }
-console.log(greet("Jinro")); // Output: HelloJinro
+console.log(greet("Jinro"));
+```
 
-// * Arrow function (long form)
+### Output
+
+> Hello Jinro
+
+---
+
+### Code Example: Arrow function (long form)
+
+```js
 const greetArrow = (name) => {
-  return "Hey" + name;
+  return "Hey " + name;
 };
-console.log(greetArrow("Bro")); // Output: HeyBro
+console.log(greetArrow("Bro"));
+```
 
-// * Arrow function (short form)
+### Output
+
+> Hey Bro
+
+---
+
+### Code Example: Arrow function (short form)
+
+> **Note:** Arrow function shorthand works **only** when returning a single expression.  
+> If the function body contains multiple statements, use curly braces `{}` and an explicit `return`.
+
+```js
 const greetShort = (name) => "Welcome mr." + name;
 console.log(greetShort("Jame")); // Output: Welcome mr.Jame
 ```
 
 ---
+
+<br>
 
 ## 🔹 5. Arrays in JavaScript
 
@@ -295,6 +331,14 @@ console.log(failed);
 
 ---
 
+<br>
+
+## ⚙️ 6. Destructuring
+
+---
+
+<br>
+
 ## ⚙️ 7. Asynchronous JavaScript (async/await)
 
 JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
@@ -360,6 +404,10 @@ chore1(); // Starts and waits 1s (in background)
 chore2(); // Starts and waits 2s (in background)
 chore3(); // Starts and waits 0.5s (in background)
 ```
+
+---
+
+<br>
 
 ## 🔗 8. Modules: Import & Export
 
