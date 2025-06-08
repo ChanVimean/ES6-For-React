@@ -44,7 +44,7 @@ console.log(name);
 
 - ## **let** can be reassigned, but NOT re-declared in the same scope.
 
-> ![CAUTION]
+> [!CAUTION]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot **declare** using the same **variable name** but you can **override** the value.
 
 ### Code Example
