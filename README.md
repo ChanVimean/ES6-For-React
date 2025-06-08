@@ -11,37 +11,60 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 5. [Arrays](#5-arrays)
 6. [Destructuring](#6-destructuring)
 7. [Asynchronous JavaScript (async/await)](#7-asynchronous)
-8. [8. Modules: Import & Export](#8-modules-import--export)
+8. [Modules: Import & Export](#8-modules-import--export)
 
 ---
 
 <br><br>
 
-## 1. Variables
+# 1. Variables
 
-### Description
+## Description
 
-Understanding how variable declarations work in JavaScript using `var`, `let`, and `const`.
+> [!NOTE]
+> JavaScript provides three ways to declare variables: var, let, and const. Each has different rules about scope, re-declaration, and reassignment.
 
 ### Code Example
 
 ```js
-var name = "John"; // Function scope
-let username = "john_doe"; // Block scope
-const age = 20; // Block scope
+// 'var' can be re-declared and reassigned
+var name = "John";
+console.log(name);
 
-console.log(name); // Output: John
-console.log(username); // Output: john_doe
-console.log(age); // Output: 20
+var name = "Jane";
+console.log(name);
 
-var name = "Jane"; // ✅ Re-declaring with var is allowed
-// let username = "jane_doe"; ❌ Error: Cannot redeclare block-scoped variable
-age = 21; // ❌ TypeError: Assignment to constant variable
+// 'let' can be reassigned, but NOT re-declared in the same scope
+let username = "john_doe";
+console.log(username);
 
-console.log(name); // Output: Jane
-// console.log(username); // ⚠️ Would throw error if uncommented
-console.log(age); // Still 20, but assignment throws error above
+// Uncommenting the line below would cause an error:
+// let username = "jane_doe"; ❌ Cannot re-declare 'username'
+
+username = "jane_doe"; // ✅ Reassignment is allowed
+console.log(username);
+
+// 'const' cannot be re-declared or reassigned
+const age = 20;
+console.log(age);
+
+// Uncommenting the line below would cause an error:
+// age = 21; ❌ Cannot reassign a constant variable
 ```
+
+### Output
+
+> John <br> Jane <br> john_doe <br> john_doe <br> 20
+
+<br>
+
+## Why this output?
+
+- The **var** variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
+
+- The **let** variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
+
+- The **const** variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
 
 ---
 
@@ -51,7 +74,7 @@ console.log(age); // Still 20, but assignment throws error above
 
 ### Description
 
-Template literals (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks `` ` ``.
+Template literals (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
 
 ### Code Example
 
