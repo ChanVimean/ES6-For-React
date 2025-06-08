@@ -26,35 +26,18 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ### Code Example
 
+- ## **var** can be re-declared and reassigned
+
 ```js
-// 'var' can be re-declared and reassigned
 var name = "John";
 console.log(name);
 
 var name = "Jane";
 console.log(name);
-
-// 'let' can be reassigned, but NOT re-declared in the same scope
-let username = "john_doe";
-console.log(username);
-
-// Uncommenting the line below would cause an error:
-// let username = "jane_doe"; ❌ Cannot re-declare 'username'
-
-username = "jane_doe"; // ✅ Reassignment is allowed
-console.log(username);
-
-// 'const' cannot be re-declared or reassigned
-const age = 20;
-console.log(age);
-
-// Uncommenting the line below would cause an error:
-// age = 21; ❌ Cannot reassign a constant variable
 ```
 
-### Output
-
-> John <br> Jane <br> john_doe <br> john_doe <br> 20
+> [!SUCCESS]
+> John <br> Jane
 
 <br>
 
