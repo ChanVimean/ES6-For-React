@@ -537,7 +537,7 @@ console.log(userCity); // "Paris"
 
 <br><br>
 
-## 7. Asynchronous JavaScript (async/await)
+## 7. Asynchronous
 
 ### 👉🏻 Description
 
