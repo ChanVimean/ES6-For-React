@@ -21,7 +21,7 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ## 👉🏻 Description
 
-> [!NOTE]
+> [!INFO]
 > JavaScript provides three ways to declare variables: **var**, **let**, and **const**. Each has different rules about scope, re-declaration, and reassignment.
 
 - ## **var** can be re-declared and reassigned.
@@ -99,9 +99,9 @@ console.log(age);
 
 ## 2. Literal Template
 
-### Description
+### 👉🏻 Description
 
-Template literals (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
+> [!INFO] > **Template literals** (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
 
 ### Code Example
 
@@ -123,9 +123,17 @@ console.log(fullName);
 
 ## 3. DOM
 
-### Description
+### 👉🏻 Description
 
-Learn how to access and manipulate HTML elements using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.
+> [!INFO]
+> Learn how to access and manipulate HTML elements using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.
+
+<br>
+
+> [!NOTE]
+> Please look out for **DOM Selector** in **HTML** and **compare** with **JavaScript** in **script tag** to avoid confusion.
+
+<br>
 
 ### HTML + JavaScript Example
 
@@ -204,15 +212,15 @@ Learn how to access and manipulate HTML elements using JavaScript DOM methods li
 
 ## 4. Arrow Functions
 
-### Description
+### 👉🏻 Description
 
-**Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
+> [!INFO] > **Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
 
 ---
 
 <br>
 
-### Code Example: Trandition
+### Code Example: **Trandition**
 
 ```js
 function greet(name) {
@@ -229,7 +237,25 @@ console.log(greet("Jinro"));
 
 <br>
 
-### Code Example: Arrow function (long form)
+### Code Example: **Arrow function** (short form)
+
+> [!NOTE] **Arrow function shorthand** works only when returning a single expression.
+
+```js
+const greetShort = (name) => "Welcome mr." + name;
+console.log(greetShort("Jame"));
+```
+
+### Output
+
+> Output: Welcome mr.Jame
+
+<br>
+
+### Code Example: **Arrow function** (long form)
+
+> [!NOTE]
+> If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.
 
 ```js
 const greetArrow = (name) => {
@@ -244,29 +270,13 @@ console.log(greetArrow("Bro"));
 
 ---
 
-<br>
-
-### Code Example: Arrow function (short form)
-
-> **Note:** Arrow function shorthand works **only** when returning a single expression.  
-> If the function body contains multiple statements, use curly braces `{}` and an explicit `return`.
-
-```js
-const greetShort = (name) => "Welcome mr." + name;
-console.log(greetShort("Jame"));
-```
-
-### Output
-
-> Output: Welcome mr.Jame
-
----
-
 <br><br>
 
 ## 5. Arrays
 
-**Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
+### 👉🏻 Description
+
+> [!INFO] > **Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
 
 ---
 
