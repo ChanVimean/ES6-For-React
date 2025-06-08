@@ -45,7 +45,7 @@ console.log(name);
 - ## **let** can be reassigned, but NOT re-declared in the same scope.
 
 > ![CAUTION]
-> ❌ SyntaxError: Identifier 'username' has already been declared. <br> This mean you cannot **declare** using the same **variable name** but you can **override** the value.
+> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot **declare** using the same **variable name** but you can **override** the value.
 
 ### Code Example
 
@@ -70,7 +70,7 @@ console.log(username);
 ### Code Example
 
 > [!CAUTION]
-> ❌ TypeError: Assignment to constant variable. <br> This mean the value is **fixed** and cannot be change or override.
+> ❌ TypeError: Assignment to constant variable. <br><br> 👉🏻 This mean the value is **fixed** and cannot be change or override.
 
 ```js
 const age = 20;
@@ -82,6 +82,8 @@ console.log(age);
 ### Output:
 
 > 20
+
+---
 
 <br>
 
