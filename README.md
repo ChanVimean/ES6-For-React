@@ -19,14 +19,14 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 # 1. Variables
 
-## Description
+## 👉🏻 Description
 
 > [!NOTE]
-> JavaScript provides three ways to declare variables: var, let, and const. Each has different rules about scope, re-declaration, and reassignment.
+> JavaScript provides three ways to declare variables: **var**, **let**, and **const**. Each has different rules about scope, re-declaration, and reassignment.
+
+- ## **var** can be re-declared and reassigned.
 
 ### Code Example
-
-- ## **var** can be re-declared and reassigned
 
 ```js
 var name = "John";
@@ -36,18 +36,60 @@ var name = "Jane";
 console.log(name);
 ```
 
-> [!SUCCESS] <br>
+### Output:
+
 > John <br> Jane
 
 <br>
 
-## Why this output?
+- ## **let** can be reassigned, but NOT re-declared in the same scope.
 
-- The **var** variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
+> ![CAUTION]
+> ❌ SyntaxError: Identifier 'username' has already been declared. <br> This mean you cannot **declare** using the same **variable name** but you can **override** the value.
 
-- The **let** variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
+### Code Example
 
-- The **const** variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
+```js
+let username = "john_doe";
+console.log(username);
+
+// let username = "jane_doe"; // ❌ SyntaxError
+
+username = "jane_doe"; // ✅ Reassignment allowed
+console.log(username);
+```
+
+### Output
+
+> john_doe <br> jane_doe
+
+<br>
+
+- ## **const** cannot be re-declared or reassigned.
+
+### Code Example
+
+> [!CAUTION]
+> ❌ TypeError: Assignment to constant variable. <br> This mean the value is **fixed** and cannot be change or override.
+
+```js
+const age = 20;
+console.log(age);
+
+// age = 21; ❌ TypeError
+```
+
+### Output:
+
+> 20
+
+<br>
+
+> [!TIP]
+>
+> - The **var** variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
+> - The **let** variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
+> - The **const** variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
 
 ---
 
