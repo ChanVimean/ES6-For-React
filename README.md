@@ -1,8 +1,8 @@
 # 📘 JavaScript ES6+ Quick Reference
 
-A concise guide to modern JavaScript (ES6 and beyond), with explanations and code examples. Useful for learners, reviewers, and instructors.
+A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples. Useful for learners, reviewers, and instructors.
 
-## Lesson Titles
+## 📃 Lesson Titles
 
 1. [Variables](#1-variables)
 2. [Literal Template](#2-literal-template)
@@ -22,9 +22,9 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 ## 👉🏻 Description
 
 > [!Note]
-> JavaScript provides three ways to declare variables: **var**, **let**, and **const**. Each has different rules about scope, re-declaration, and reassignment.
+> `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.
 
-- ## var can be re-declared and reassigned.
+- ## `var` can be re-declared and reassigned.
 
 ### Code Example
 
@@ -42,10 +42,10 @@ console.log(name);
 
 <br>
 
-- ## let can be reassigned, but NOT re-declared in the same scope.
+- ## `let` can be reassigned, but NOT re-declared in the same scope.
 
 > [!Caution]
-> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot **declare** using the same **variable name** but you can **override** the value.
+> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot `declare` using the same `variable name` but you can `override` the value.
 
 ### Code Example
 
@@ -59,13 +59,13 @@ username = "jane_doe"; // ✅ Reassignment allowed
 console.log(username);
 ```
 
-### Output
+### Output:
 
 > john_doe <br> jane_doe
 
 <br>
 
-- ## const cannot be re-declared or reassigned.
+- ## `const` cannot be re-declared or reassigned.
 
 ### Code Example
 
@@ -89,9 +89,9 @@ console.log(age);
 
 > [!Tip]
 >
-> - The **var** variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
-> - The **let** variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
-> - The **const** variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
+> - The `var` variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
+> - The `let` variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
+> - The `const` variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
 
 ---
 
@@ -102,7 +102,7 @@ console.log(age);
 ### 👉🏻 Description
 
 > [!Note]
-> **Template literals** (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
+> `Template literals` (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
 
 ### Code Example
 
@@ -114,7 +114,7 @@ let fullName = `Fullname: ${firstName} ${lastName}`;
 console.log(fullName);
 ```
 
-### Output
+### Output:
 
 > Fullname: John son
 
@@ -132,7 +132,7 @@ console.log(fullName);
 <br>
 
 > [!Important]
-> Please look out for **DOM Selector** in **HTML** and **compare** with **JavaScript** in **script tag** to avoid confusion.
+> Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.
 
 <br>
 
@@ -216,7 +216,7 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> **Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
+> `Arrow functions` (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
 
 ---
 
@@ -231,7 +231,7 @@ function greet(name) {
 console.log(greet("Jinro"));
 ```
 
-### Output
+### Output:
 
 > Hello Jinro
 
@@ -249,9 +249,9 @@ const greetShort = (name) => "Welcome mr." + name;
 console.log(greetShort("Jame"));
 ```
 
-### Output
+### Output:
 
-> Output: Welcome mr.Jame
+> Welcome mr.Jame
 
 <br>
 
@@ -267,7 +267,7 @@ const greetArrow = (name) => {
 console.log(greetArrow("Bro"));
 ```
 
-### Output
+### Output:
 
 > Hey Bro
 
@@ -280,7 +280,7 @@ console.log(greetArrow("Bro"));
 ### 👉🏻 Description
 
 > [!Note]
-> **Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
+> `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
 
 ---
 
@@ -289,7 +289,7 @@ console.log(greetArrow("Bro"));
 ### 👥 5.1 Basic Arrays
 
 > [!Note]
-> You can store strings, numbers, or any data types in arrays.
+> You can store `strings`, `numbers`, or `any` data types in arrays.
 
 ### Code Example
 
@@ -303,7 +303,7 @@ console.log(numbers); // [1, 2, 3, 4, 5]
 console.log(mixedArray); // ["Hello", 42, true, null]
 ```
 
-### Output
+### Output:
 
 > ["Apple", "Banana", "Cherry"] <br> [1, 2, 3, 4, 5] <br> ["Hello", 42, true, null]
 
@@ -328,7 +328,7 @@ console.log(people[0].name); // Layla
 console.log(people[1].age); // 20
 ```
 
-### Output
+### Output:
 
 > Layla <br> 20
 
@@ -359,7 +359,7 @@ console.log(personInfo.address.street); // 20TY
 console.log(personInfo.address.country); // Japan
 ```
 
-### Output
+### Output:
 
 > Tokyo <br> 20YT <br> Japan
 
@@ -387,7 +387,7 @@ const result = students.map((student) => {
 console.log(result);
 ```
 
-### Output
+### Output:
 
 > ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 
@@ -415,7 +415,7 @@ const result = students.map((student) => {
 console.log(result);
 ```
 
-### Output
+### Output:
 
 > ["name: Alice - subject: C#", "name: Bob - subject: C++"]
 
@@ -435,7 +435,7 @@ const passed = students.filter((student) => student.score >= 60);
 console.log(passed);
 ```
 
-### Output
+### Output:
 
 > [{ name: "Alice", subject: "C#", score: 85 }]
 
@@ -455,7 +455,7 @@ const failed = students.find((student) => student.score < 60);
 console.log(failed);
 ```
 
-### Output
+### Output:
 
 > { name: "Bob", subject: "C++", score: 55 }
 
@@ -468,7 +468,7 @@ console.log(failed);
 ### 👉🏻 Description
 
 > [!Note]
-> This document demonstrates how to use **destructuring** in JavaScript with arrays and objects.
+> This document demonstrates how to use `destructuring` in `JavaScript` with `arrays` and `objects`.
 
 <br>
 
@@ -483,7 +483,7 @@ const first = colors[0]; // "red"
 console.log(first);
 ```
 
-### Output
+### Output:
 
 > red
 
@@ -499,7 +499,7 @@ console.log(item1); // "red"
 console.log(item2); // "green"
 ```
 
-### Output
+### Output:
 
 > red <br> green
 
@@ -515,7 +515,7 @@ console.log(color1); // "red"
 console.log(color3); // "blue"
 ```
 
-### Output
+### Output:
 
 > red <br> blue
 
@@ -529,7 +529,7 @@ console.log(userName); // "Alex"
 console.log(userCity); // "Paris"
 ```
 
-### Output
+### Output:
 
 > Alex <br> Paris
 
@@ -542,7 +542,7 @@ console.log(userCity); // "Paris"
 ### 👉🏻 Description
 
 > [!Note]
-> JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
+> `JavaScript` runs code line by line. Normally, it executes tasks one at a time — this is called `synchronous` execution. But in real-world applications (like APIs or user actions), we use `asynchronous` behavior to avoid blocking the program.
 
 ---
 
@@ -577,7 +577,7 @@ task2(); // Then takes 2s
 task3(); // Then takes 0.5s
 ```
 
-### Output
+### Output:
 
 > Task 1 completed <br> Task 2 completed <br> Task 3 completed
 
@@ -616,7 +616,7 @@ chore2(); // Starts and waits 2s (in background)
 chore3(); // Starts and waits 0.5s (in background)
 ```
 
-### Output
+### Output:
 
 > Task 3 completed <br> Task 1 completed <br> Task 2 completed
 
@@ -629,12 +629,12 @@ chore3(); // Starts and waits 0.5s (in background)
 ### 👉🏻 Description
 
 > [!Note]
-> Modules allow you to split JavaScript code into multiple files and share variables, functions, or classes between them.
+> `Modules` allow you to split `JavaScript` code into `multiple files` and `share variables`, `functions`, or `classes` between them.
 
 <br>
 
 > [!Important]
-> This section require **multiple files** because we will be **exporting** and **importing** from other files 📁.
+> This section require `multiple files` because we will be `exporting` and `importing` from other **files** 📁.
 
 ---
 
@@ -643,7 +643,7 @@ chore3(); // Starts and waits 0.5s (in background)
 ### 8.1 Single **export** & **import**
 
 > [!Note]
-> Used to export a **single** value (default export).
+> Used to export a `single` value (default export).
 
 ### 🗂️ File: **utils.js**
 
@@ -661,7 +661,7 @@ console.log(add(2, 3));
 console.log(subject(5, 10));
 ```
 
-### Output
+### Output:
 
 > 5 <br> -5
 
@@ -672,7 +672,7 @@ console.log(subject(5, 10));
 ### 8.2 Multiple **export** & **import**
 
 > [!Note]
-> Used to export a **multiple** values.
+> Used to export a `multiple` values.
 
 ### 🗂️ File: **math.js**
 
@@ -695,7 +695,7 @@ console.log(PI);
 console.log(greeting("Alice"));
 ```
 
-### Output
+### Output:
 
 > 3.14 <br> Hello, Alice!
 
