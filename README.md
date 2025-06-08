@@ -36,7 +36,7 @@ var name = "Jane";
 console.log(name);
 ```
 
-> [!SUCCESS]
+> [!SUCCESS] <br>
 > John <br> Jane
 
 <br>
