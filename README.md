@@ -21,7 +21,7 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 
 ## 👉🏻 Description
 
-> [!INFO]
+> [!Note]
 > JavaScript provides three ways to declare variables: **var**, **let**, and **const**. Each has different rules about scope, re-declaration, and reassignment.
 
 - ## **var** can be re-declared and reassigned.
@@ -44,7 +44,7 @@ console.log(name);
 
 - ## **let** can be reassigned, but NOT re-declared in the same scope.
 
-> [!CAUTION]
+> [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot **declare** using the same **variable name** but you can **override** the value.
 
 ### Code Example
@@ -69,7 +69,7 @@ console.log(username);
 
 ### Code Example
 
-> [!CAUTION]
+> [!Caution]
 > ❌ TypeError: Assignment to constant variable. <br><br> 👉🏻 This mean the value is **fixed** and cannot be change or override.
 
 ```js
@@ -87,7 +87,7 @@ console.log(age);
 
 <br>
 
-> [!TIP]
+> [!Tip]
 >
 > - The **var** variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
 > - The **let** variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
@@ -101,7 +101,8 @@ console.log(age);
 
 ### 👉🏻 Description
 
-> [!INFO] > **Template literals** (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
+> [!Note]
+> **Template literals** (also called template strings) are a cleaner way to embed variables and expressions inside strings using backticks.
 
 ### Code Example
 
@@ -125,12 +126,12 @@ console.log(fullName);
 
 ### 👉🏻 Description
 
-> [!INFO]
+> [!Note]
 > Learn how to access and manipulate HTML elements using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.
 
 <br>
 
-> [!NOTE]
+> [!Important]
 > Please look out for **DOM Selector** in **HTML** and **compare** with **JavaScript** in **script tag** to avoid confusion.
 
 <br>
@@ -214,7 +215,8 @@ console.log(fullName);
 
 ### 👉🏻 Description
 
-> [!INFO] > **Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
+> [!Note]
+> **Arrow functions** (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
 
 ---
 
@@ -239,7 +241,8 @@ console.log(greet("Jinro"));
 
 ### Code Example: **Arrow function** (short form)
 
-> [!NOTE] **Arrow function shorthand** works only when returning a single expression.
+> [!Important]
+> **Arrow function shorthand** works only when returning a single expression.
 
 ```js
 const greetShort = (name) => "Welcome mr." + name;
@@ -254,7 +257,7 @@ console.log(greetShort("Jame"));
 
 ### Code Example: **Arrow function** (long form)
 
-> [!NOTE]
+> [!Important]
 > If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.
 
 ```js
@@ -276,7 +279,8 @@ console.log(greetArrow("Bro"));
 
 ### 👉🏻 Description
 
-> [!INFO] > **Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
+> [!Note]
+> **Arrays** allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
 
 ---
 
@@ -284,7 +288,8 @@ console.log(greetArrow("Bro"));
 
 ### 👥 5.1 Basic Arrays
 
-You can store strings, numbers, or any data types in arrays.
+> [!Note]
+> You can store strings, numbers, or any data types in arrays.
 
 ### Code Example
 
@@ -308,7 +313,8 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 
 ### 📦 5.2 Arrays of Objects
 
-Useful when storing data like a list of people or products.
+> [!Note]
+> Useful when storing data like a list of people or products.
 
 ### Code Example
 
@@ -332,7 +338,8 @@ console.log(people[1].age); // 20
 
 ### 🧩 5.3 Nested Objects in Arrays
 
-You can nest objects inside other objects for complex data structures.
+> [!Note]
+> You can nest objects inside other objects for complex data structures.
 
 ### Code Example
 
@@ -362,7 +369,8 @@ console.log(personInfo.address.country); // Japan
 
 ### 🛠️ 5.4 Array Methods
 
-Transforms every item in an array and returns a new array.
+> [!Note]
+> Transforms every item in an array and returns a new array.
 
 ### Code Example
 
@@ -389,7 +397,8 @@ console.log(result);
 
 ### 🔄 5. Array Methods - map()
 
-Transforms every item in an array and returns a new array.
+> [!Important]
+> Transforms every item in an array and returns a new array.
 
 ### Code Example
 
@@ -416,7 +425,8 @@ console.log(result);
 
 ### ✅ 5. Array Methods - filter()
 
-Filters items by condition and returns a new array with the matches.
+> [!Important]
+> Filters items by condition and returns a new array with the matches.
 
 ### Code Example
 
@@ -435,7 +445,8 @@ console.log(passed);
 
 ### 🔍 5. Array Methods = find()
 
-Finds and returns the first match only (not all like filter).
+> [!Important]
+> Finds and returns the first match only (not all like filter).
 
 ### Code Example
 
@@ -454,7 +465,10 @@ console.log(failed);
 
 ## 6. Destructuring
 
-This document demonstrates how to use **destructuring** in JavaScript with arrays and objects.
+### 👉🏻 Description
+
+> [!Note]
+> This document demonstrates how to use **destructuring** in JavaScript with arrays and objects.
 
 <br>
 
@@ -477,7 +491,7 @@ console.log(first);
 
 <br>
 
-✅ Destructuring Arrays
+- ### ✅ Destructuring Arrays
 
 ```js
 const [item1, item2] = colors;
@@ -493,7 +507,7 @@ console.log(item2); // "green"
 
 <br>
 
-✅ Skipping Items in Array Destructuring
+- ### ✅ Skipping Items in Array Destructuring
 
 ```js
 const [color1, , color3] = colors;
@@ -505,7 +519,7 @@ console.log(color3); // "blue"
 
 > red <br> blue
 
-✅ Object Destructuring with Renaming
+- ### ✅ Object Destructuring with Renaming
 
 ```js
 const user = { name: "Alex", age: 30, city: "Paris" };
@@ -525,7 +539,10 @@ console.log(userCity); // "Paris"
 
 ## 7. Asynchronous JavaScript (async/await)
 
-JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
+### 👉🏻 Description
+
+> [!Note]
+> JavaScript runs code line by line. Normally, it executes tasks one at a time — this is called **synchronous** execution. But in real-world applications (like APIs or user actions), we use **asynchronous** behavior to avoid blocking the program.
 
 ---
 
@@ -533,7 +550,8 @@ JavaScript runs code line by line. Normally, it executes tasks one at a time —
 
 ### ⏱️ 7.1 Synchronous
 
-This runs each task **one after another**, blocking the next one from starting until the current finishes.
+> [!Note]
+> This runs each task **one after another**, blocking the next one from starting until the current finishes.
 
 ```js
 const task1 = () => {
@@ -569,7 +587,8 @@ task3(); // Then takes 0.5s
 
 ### ⏱️ 7.2 Asynchronous (async/await)
 
-This version lets tasks run in the background. The program doesn’t wait — it keeps moving.
+> [!Note]
+> This version lets tasks run in the background. The program doesn’t wait — it keeps moving.
 
 ### Code Example
 
@@ -607,7 +626,15 @@ chore3(); // Starts and waits 0.5s (in background)
 
 ## 8. Modules: Import & Export
 
-Modules allow you to split JavaScript code into multiple files and share variables, functions, or classes between them.
+### 👉🏻 Description
+
+> [!Note]
+> Modules allow you to split JavaScript code into multiple files and share variables, functions, or classes between them.
+
+<br>
+
+> [!Important]
+> This section require **multiple files** because we will be **exporting** and **importing** from other files 📁.
 
 ---
 
@@ -615,7 +642,8 @@ Modules allow you to split JavaScript code into multiple files and share variabl
 
 ### 8.1 Single **export** & **import**
 
-Used to export a **single** value (default export).
+> [!Note]
+> Used to export a **single** value (default export).
 
 ### 🗂️ File: **utils.js**
 
@@ -643,7 +671,8 @@ console.log(subject(5, 10));
 
 ### 8.2 Multiple **export** & **import**
 
-Used to export a **multiple** values.
+> [!Note]
+> Used to export a **multiple** values.
 
 ### 🗂️ File: **math.js**
 
