@@ -24,7 +24,7 @@ A concise guide to modern JavaScript (ES6 and beyond), with explanations and cod
 > [!Note]
 > JavaScript provides three ways to declare variables: **var**, **let**, and **const**. Each has different rules about scope, re-declaration, and reassignment.
 
-- ## **var** can be re-declared and reassigned.
+- ## var can be re-declared and reassigned.
 
 ### Code Example
 
@@ -42,7 +42,7 @@ console.log(name);
 
 <br>
 
-- ## **let** can be reassigned, but NOT re-declared in the same scope.
+- ## let can be reassigned, but NOT re-declared in the same scope.
 
 > [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot **declare** using the same **variable name** but you can **override** the value.
@@ -65,7 +65,7 @@ console.log(username);
 
 <br>
 
-- ## **const** cannot be re-declared or reassigned.
+- ## const cannot be re-declared or reassigned.
 
 ### Code Example
 
