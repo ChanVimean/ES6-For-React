@@ -1,11 +1,10 @@
 # 📘 JavaScript ES6+ Quick Reference
 
 > [!Note]
-> **[EN]**</br>
-> A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.
-> ### **[KH]**
-
-ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
+> ### **[EN]**</br>
+> A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
+> ### **[KH]**<br>
+> ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
 
 ## 📃 Lesson Titles
 
