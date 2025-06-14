@@ -293,7 +293,7 @@ console.log(greetShort("Jame"));
 
 > [!Important]
 > **[English]** If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br>
-> **[Khmer]** ប្រសិនបើ **multiple statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
+> **[Khmer]** ប្រសិនបើ **statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
 
 ```js
 const greetArrow = (name) => {
