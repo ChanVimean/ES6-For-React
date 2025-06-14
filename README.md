@@ -1,4 +1,4 @@
-# 📘 JavaScript ES6+ Quick Reference
+# 📘 JavaScript ES6+ Quick Reference 
 
 > [!Note]
 > ### **[English]**</br>
@@ -60,9 +60,11 @@ console.log(name);
 > **[English]** can be reassigned, but NOT re-declared in the same scope. Meaning you cannot declare the same variable name that already exist.<br><br>
 > **[Khmer]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
 
+<br>
+
 > [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br>
-> 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.<br>
+> 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.<br><br>
 > 👉🏻 **[Khmer]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
 
 ### Code Example
@@ -130,8 +132,10 @@ console.log(age);
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** `Template literals` (also called template strings) are a cleaner way to embed variables and expressions inside strings using ``backticks``. Meaning you can call variable or add condition inside string unlike `'single quotes'` and `"double quotes"`<br><br>
-> **[Khmer]** `Template literals` (ហៅផងដែរថា template strings) គឺជាវិធីស្អាតជាងក្នុងការបង្កប់អថេរ និងកន្សោមនៅខាងក្នុងខ្សែអក្សរដោយប្រើ ``backticks`` ។ មាន​ន័យ​ថា​អ្នក​អាច​ហៅ​ variable ឬ​បន្ថែម​លក្ខខណ្ឌ​នៅ​ក្នុង​ string បាន មិន​ដូចជា `'single quotes'` និង `"double quotes"`។
+> **[English]** <br>
+> `Template literals` (also called template strings) are a cleaner way to embed variables and expressions inside strings using ``backticks``. Meaning you can call variable or add condition inside string unlike `'single quotes'` and `"double quotes"`<br><br>
+> **[Khmer]** <br>
+> `Template literals` (ហៅផងដែរថា template strings) គឺជាវិធីស្អាតជាងក្នុងការបង្កប់អថេរ និងកន្សោមនៅខាងក្នុងខ្សែអក្សរដោយប្រើ ``backticks`` ។ មាន​ន័យ​ថា​អ្នក​អាច​ហៅ​ variable ឬ​បន្ថែម​លក្ខខណ្ឌ​នៅ​ក្នុង​ string បាន មិន​ដូចជា `'single quotes'` និង `"double quotes"`។
 
 ### Code Example
 
@@ -156,15 +160,19 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** Learn how to access and manipulate `HTML elements` using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.<br><br>
-> **[Khmer]** ស្វែងយល់ពីរបៀបចូលប្រើ និងរៀបចំ`ធាតុ HTML` ដោយប្រើវិធីសាស្ត្រ JavaScript DOM ដូចជា `getElementById`, `getElementsByClassName`, `querySelector` និងច្រើនទៀត។
+> **[English]** <br>
+> Learn how to access and manipulate `HTML elements` using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.<br><br>
+> **[Khmer]** <br>
+> ស្វែងយល់ពីរបៀបចូលប្រើ និងរៀបចំ`ធាតុ HTML` ដោយប្រើវិធីសាស្ត្រ JavaScript DOM ដូចជា `getElementById`, `getElementsByClassName`, `querySelector` និងច្រើនទៀត។
 
 <br>
 
 > [!Important]
 > ### Understand example flow below.<br>
-> **[English]** Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.<br><br>
-> **[Khmer]** សូមរកមើល `DOM Selector` នៅក្នុង **HTML** និង **ប្រៀបធៀប** ជាមួយ **JavaScript** ក្នុង `script tag` ដើម្បីជៀសវាងការភ័ន្តច្រឡំ។
+> **[English]** <br>
+> Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.<br><br>
+> **[Khmer]** <br>
+> សូមរកមើល `DOM Selector` នៅក្នុង **HTML** និង **ប្រៀបធៀប** ជាមួយ **JavaScript** ក្នុង `script tag` ដើម្បីជៀសវាងការភ័ន្តច្រឡំ។
 
 <br>
 
@@ -248,8 +256,10 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** `Arrow functions` (`=>`) are a shorter syntax for writing function expressions introduced in ES6.<br>
-> **[Khmer]** > `Arrow functions` (`=>`) គឺជា syntax ខ្លីជាងសម្រាប់ការសរសេរ function ដែលបានណែនាំនៅក្នុង ES6 ។
+> **[English]** <br>
+> `Arrow functions` (`=>`) are a shorter syntax for writing function expressions introduced in ES6.<br>
+> **[Khmer]** <br>
+> `Arrow functions` (`=>`) គឺជា syntax ខ្លីជាងសម្រាប់ការសរសេរ function ដែលបានណែនាំនៅក្នុង ES6។
 
 ---
 
@@ -275,8 +285,10 @@ console.log(greet("Jinro"));
 ### Code Example: **Arrow function** (short form)
 
 > [!Important]
-> **[English]** **Arrow function shorthand** works only when returning a single expression.<br>
-> **[Khmer]** **Arrow function shorthand** ដំណើរការតែនៅពេល return តម្លៃតែមួយប៉ុណ្ណោះ។ 
+> **[English]** <br>
+> **Arrow function shorthand** works only when returning a single expression.<br>
+> **[Khmer]** <br>
+> **Arrow function shorthand** ដំណើរការតែនៅពេល return តម្លៃតែមួយប៉ុណ្ណោះ។ 
 
 ```js
 const greetShort = (name) => "Welcome mr." + name;
@@ -292,8 +304,10 @@ console.log(greetShort("Jame"));
 ### Code Example: **Arrow function** (long form)
 
 > [!Important]
-> **[English]** If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br><br>
-> **[Khmer]** ប្រសិនបើ **statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
+> **[English]** <br>
+> If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br><br>
+> **[Khmer]** <br>
+> ប្រសិនបើ **statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
 
 ```js
 const greetArrow = (name) => {
@@ -315,8 +329,10 @@ console.log(greetArrow("Bro"));
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br><br>
-> **[Khmer]** `Arrays` អនុញ្ញាតឱ្យអ្នយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
+> **[English]** <br>
+> `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br><br>
+> **[Khmer]** <br>
+> `Arrays` អនុញ្ញាតឱ្យអ្នយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
 
 ---
 
@@ -325,8 +341,10 @@ console.log(greetArrow("Bro"));
 ### 👥 5.1 Basic Arrays
 
 > [!Note]
-> **[English]** You can store `strings`, `numbers`, or `any` data types in arrays.<br>
-> **[Khmer]** អ្នកអាចរក្សាទុក `អក្សរ` `លេខ` ឬ `ប្រភេទទិន្នន័យណាមួយ” នៅក្នុង Array។
+> **[English]** <br>
+> You can store `strings`, `numbers`, or `any` data types in arrays.<br>
+> **[Khmer]** <br>
+> អ្នកអាចរក្សាទុក `អក្សរ` `លេខ` ឬ `ប្រភេទទិន្នន័យណាមួយ” នៅក្នុង Array។
 
 ### Code Example
 
@@ -351,8 +369,10 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 ### 📦 5.2 Arrays of Objects
 
 > [!Note]
-> **[English]** Useful when storing data like a list of people or products.<br>
-> **[Khmer]** មានប្រយោជន៍នៅពេលរក្សាទុកទិន្នន័យដូចជាបញ្ជីមនុស្ស ឬផលិតផល។ 
+> **[English]** <br>
+> Useful when storing data like a list of people or products.<br>
+> **[Khmer]** <br>
+> មានប្រយោជន៍នៅពេលរក្សាទុកទិន្នន័យដូចជាបញ្ជីមនុស្ស ឬផលិតផល។ 
 
 ### Code Example
 
@@ -377,8 +397,10 @@ console.log(people[1].age); // 20
 ### 🧩 5.3 Nested Objects in Arrays
 
 > [!Note]
-> **[English]** You can nest objects inside other objects for complex data structures.<br>
-> **[Khmer]**  យើងអាចដាក់វត្ថុនៅខាងក្នុងវត្ថុផ្សេងទៀតសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យស្មុគស្មាញ។
+> **[English]** <br>
+> You can nest objects inside other objects for complex data structures.<br>
+> **[Khmer]** <br>
+> យើងអាចដាក់វត្ថុនៅខាងក្នុងវត្ថុផ្សេងទៀតសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យស្មុគស្មាញ។
 
 ### Code Example
 
@@ -405,8 +427,10 @@ console.log(personInfo.address.country); // Japan
 <br>
 
 > [!Important]
-> **[English]** Why use `curly bracket {}` rather than `square bracket []`? Because `{}` for **object** and `[]` for **arrays**.<br><br>
-> **[Khmer]** ហេតុអ្វីត្រូវប្រើ `curly bracket {}`ជាជាង`square bracket []`? ដោយសារតែ {} ប្រើសម្រាប់ **object** និង [] ប្រើសម្រាប់ **arrays**។
+> **[English]** <br>
+> Why use `curly bracket {}` rather than `square bracket []`? Because `{}` for **object** and `[]` for **arrays**.<br><br>
+> **[Khmer]** <br>
+> ហេតុអ្វីត្រូវប្រើ `curly bracket {}`ជាជាង`square bracket []`? ដោយសារតែ {} ប្រើសម្រាប់ **object** និង [] ប្រើសម្រាប់ **arrays**។
 
 ---
 
@@ -415,11 +439,11 @@ console.log(personInfo.address.country); // Japan
 ### 🛠️ 5.4 Array Methods
 
 > [!Note]
-> ## **[English]**
+> ## **[English]** <br>
 > - In JavaScript, an `array method` is a `built-in` function that you can use to manipulate or work with **arrays**.<br>
 > - There are many **array method** such as `.push()`, `.pop()`, `.foreach()`, `.map()`, `.filter()`, etc.<br>
 > - We'll cover the 3 most used methods in React and other high-level frameworks.<br>
-> ## **[Khmer]**
+> ## **[Khmer]** <br>
 > - ក្នុង JavaScript, **array method** គឺជា មុខងារ ដែលបានបង្កើតរួចហើយ `(built-in function)` ដែលអ្នកអាចប្រើដើម្បីបម្លែង ឬ ដំណើរការជាមួយ **arrays**។<br>
 > - មាន array methods ជាច្រើនដូចជា `.push()`, `.pop()`, `.forEach()`, `.map()`, `.filter()` និងច្រើនទៀត។<br>
 > - យើងនឹងរៀនពី `3 methods` ដែលត្រូវប្រើច្រើនបំផុតក្នុង `React` និង `framework` កម្រិតខ្ពស់ផ្សេងទៀត។
