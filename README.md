@@ -31,8 +31,9 @@
 
 <br>
 
-> [!Note]
-> ## `var` <br>
+
+> - ## `var` <br>
+>[!Note]
 > **[EN]** can be re-declared and reassigned.<br>
 > **[KH]** អាចត្រូវបានប្រកាស និងចាត់តាំងឡើងវិញ។
 
