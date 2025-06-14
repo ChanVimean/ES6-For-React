@@ -1,9 +1,9 @@
 # 📘 JavaScript ES6+ Quick Reference
 
 > [!Note]
-> ### **[EN]**</br>
+> ### **[English]**</br>
 > ## A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
-> ### **[KH]**<br>
+> ### **[Khmer]**<br>
 > ## ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
 
 ## 📃 Lesson Titles
@@ -26,8 +26,8 @@
 ## 👉🏻 Description
 
 > [!Note]
-> **[EN]** `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br>
-> **[KH]** ការប្រកាស `variables` ក្នុង `JavaScript` មាន 3 របៀប៖ `var`, `let`, និង `const`។ របៀបនីមួយៗមានច្បាប់ផ្សេងៗគ្នាអំពី ការប្រើប្រាស ការប្រកាសឡើងវិញ និងការចាត់តាំងឡើងវិញ។ 
+> **[English]** `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br>
+> **[Khmer]** ការប្រកាស `variables` ក្នុង `JavaScript` មាន 3 របៀប៖ `var`, `let`, និង `const`។ របៀបនីមួយៗមានច្បាប់ផ្សេងៗគ្នាអំពី ការប្រើប្រាស ការប្រកាសឡើងវិញ និងការចាត់តាំងឡើងវិញ។ 
 
 <br>
 
@@ -35,8 +35,8 @@
 - ## `var`
 
 >[!Note]
-> **[EN]** can be re-declared and reassigned.<br>
-> **[KH]** អាចត្រូវបានប្រកាស និងចាត់តាំងឡើងវិញ។
+> **[Engish]** can be re-declared and reassigned.<br>
+> **[Kkhmer]** អាចត្រូវបានប្រកាស និងចាត់តាំងឡើងវិញ។
 
 ### Code Example
 
@@ -57,13 +57,13 @@ console.log(name);
 - ## `let`
 
 > [!Note]
-> **[EN]** can be reassigned, but NOT re-declared in the same scope. Meaning you cannot declare the same variable name that already exist.<br>
-> **[KH]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
+> **[English]** can be reassigned, but NOT re-declared in the same scope. Meaning you cannot declare the same variable name that already exist.<br>
+> **[Khmer]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
 
 > [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br>
-> 👉🏻**[EN]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.
-> 👉🏻**[KH]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
+> 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.
+> 👉🏻 **[Khmer]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
 
 ### Code Example
 
@@ -83,12 +83,19 @@ console.log(username);
 
 <br>
 
-- ## `const` cannot be re-declared or reassigned.
+- ## `const`
+
+> [!Note]
+> **[English]** cannot be re-declared or reassigned.
+> **[Khmer]** មិន​អាច​ប្រកាស​ឡើង​វិញ ​ឬ​ចាត់​តាំង​ឡើង​វិញ​បានឡើយ។ 
 
 ### Code Example
 
 > [!Caution]
-> ❌ TypeError: Assignment to constant variable. <br><br> 👉🏻 This mean the value is **fixed** and cannot be change or override.
+> ❌ TypeError: Assignment to constant variable. <br><br>
+
+> 👉🏻 **[English]** This mean the value is **fixed** and cannot be change or override.<br>
+> 👉🏻 **[Khmer]** នេះមានន័យថាតម្លៃគឺ **Fixed** ហើយមិនអាចផ្លាស់ប្តូរ ឬ override បានទេ។
 
 ```js
 const age = 20;
