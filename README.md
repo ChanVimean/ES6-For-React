@@ -2,9 +2,9 @@
 
 > [!Note]
 > ### **[English]**</br>
-> ### A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
+> A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
 > ### **[Khmer]**<br>
-> ### ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
+> ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
 
 ## 📃 Lesson Titles
 
