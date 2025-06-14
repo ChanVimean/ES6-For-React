@@ -26,12 +26,13 @@
 ## 👉🏻 Description
 
 > [!Note]
-> **[EN]**
-> `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br>
-> **[KH]**
-> ការប្រកាស `variables` ក្នុង `JavaScript` មាន 3 របៀប៖ `var`, `let`, និង `const`។ របៀបនីមួយៗមានច្បាប់ផ្សេងៗគ្នាអំពី ការប្រើប្រាស ការប្រកាសឡើងវិញ និងការចាត់តាំងឡើងវិញ។ 
+> **[EN]** `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br>
+> **[KH]** ការប្រកាស `variables` ក្នុង `JavaScript` មាន 3 របៀប៖ `var`, `let`, និង `const`។ របៀបនីមួយៗមានច្បាប់ផ្សេងៗគ្នាអំពី ការប្រើប្រាស ការប្រកាសឡើងវិញ និងការចាត់តាំងឡើងវិញ។ 
 
-- ## `var` can be re-declared and reassigned.
+- ## `var`
+> [!Note]
+> **[EN]** can be re-declared and reassigned.<br>
+> **[KH]** អាចត្រូវបានប្រកាស និងចាត់តាំងឡើងវិញ។
 
 ### Code Example
 
