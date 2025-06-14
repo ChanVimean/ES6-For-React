@@ -54,7 +54,11 @@ console.log(name);
 
 <br>
 
-- ## `let` can be reassigned, but NOT re-declared in the same scope.
+- ## `let`
+
+> [!Note]
+> **[EN]** can be reassigned, but NOT re-declared in the same scope.<br>
+> **[KH]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ [!Tip]
 
 > [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot `declare` using the same `variable name` but you can `override` the value.
