@@ -248,7 +248,8 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> `Arrow functions` (`=>`) are a shorter syntax for writing function expressions introduced in ES6. They are especially useful for concise one-liner functions and preserving `this` context in some cases.
+> **[English]** `Arrow functions` (`=>`) are a shorter syntax for writing function expressions introduced in ES6.<br>
+> **[Khmer]** > `Arrow functions` (`=>`) គឺជា syntax ខ្លីជាងសម្រាប់ការសរសេរ function ដែលបានណែនាំនៅក្នុង ES6 ។
 
 ---
 
