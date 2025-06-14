@@ -61,7 +61,9 @@ console.log(name);
 > **[KH]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
 
 > [!Caution]
-> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br> 👉🏻 This mean you cannot `declare` using the same `variable name` but you can `override` the value.
+> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br>
+> 👉🏻**[EN]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.
+> 👉🏻**[KH]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
 
 ### Code Example
 
