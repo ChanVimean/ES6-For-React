@@ -62,7 +62,7 @@ console.log(name);
 
 > [!Caution]
 > ❌ SyntaxError: Identifier 'username' has already been declared. <br><br>
-> 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.
+> 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.<br>
 > 👉🏻 **[Khmer]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
 
 ### Code Example
@@ -86,7 +86,7 @@ console.log(username);
 - ## `const`
 
 > [!Note]
-> **[English]** cannot be re-declared or reassigned.
+> **[English]** cannot be re-declared or reassigned.<br>
 > **[Khmer]** មិន​អាច​ប្រកាស​ឡើង​វិញ ​ឬ​ចាត់​តាំង​ឡើង​វិញ​បានឡើយ។ 
 
 ### Code Example
@@ -113,10 +113,15 @@ console.log(age);
 <br>
 
 > [!Tip]
->
+> ## **[English]**<br>
 > - The `var` variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
-> - The `let` variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error (shown commented out).
-> - The `const` variable age is printed as 20. Trying to change it would cause an error, which is also shown as a commented-out line.
+> - The `let` variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error.
+> - The `const` variable age is printed as 20. Trying to change it would cause an error.
+> <br>
+> ## **[Khmer]**>
+> - ការប្រកាសឈ្មោះ `name` ដោយប្រើ `var` យើងអាចកែរតម្លៃ និងធ្ការវើ override ឡើងវិញពី **"John"** ទៅ **"Jane"** បាន។ ដូច្នេះតម្លៃចុងក្រោយដែលបាន output គឺ **"Jane"**។
+> - ការប្រកាសឈ្មោះ `username` ដោយប្រើ `let`: ចាប់ផ្តើមជា **"john_doe**" បន្ទាប់មកត្រូវបានកែរតម្លៃឡើងវិញទៅ **"jane_doe"**។ **ការ​ប្រកាស​ឡើង​វិញ** ក្នុង `scope` ដូចគ្នា​នឹង​បង្ក​ឱ្យ​មាន​កំហុស (Error)។
+> - ការប្រកាសអាយុ `age` ដោយប្រើ `const` ត្រូវបាន output: **20**។ ការព្យាយាមផ្លាស់ប្តូរវានឹងបណ្តាលឱ្យមានកំហុស(Error)។
 
 ---
 
