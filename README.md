@@ -132,7 +132,7 @@ console.log(age);
 
 > [!Note]
 > **[English]** `Template literals` (also called template strings) are a cleaner way to embed variables and expressions inside strings using ``backticks``. Meaning you can call variable or add condition inside string unlike `'single quotes'` and `"double quotes"`<br>
-> **[Khmer]** `Template literals` (ហៅផងដែរថា template strings) គឺជាវិធីស្អាតជាងក្នុងការបង្កប់អថេរ និងកន្សោមនៅខាងក្នុងខ្សែអក្សរដោយប្រើ ``backticks`` ។ មាន​ន័យ​ថា​អ្នក​អាច​ហៅ​ variable ឬ​បន្ថែម​លក្ខខណ្ឌ​នៅ​ក្នុង​ string បាន មិន​ដូចជា `'single quotes'' និង `"double quotes"`។
+> **[Khmer]** `Template literals` (ហៅផងដែរថា template strings) គឺជាវិធីស្អាតជាងក្នុងការបង្កប់អថេរ និងកន្សោមនៅខាងក្នុងខ្សែអក្សរដោយប្រើ ``backticks`` ។ មាន​ន័យ​ថា​អ្នក​អាច​ហៅ​ variable ឬ​បន្ថែម​លក្ខខណ្ឌ​នៅ​ក្នុង​ string បាន មិន​ដូចជា `'single quotes'` និង `"double quotes"`។
 
 ### Code Example
 
