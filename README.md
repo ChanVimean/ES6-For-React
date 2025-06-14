@@ -358,17 +358,17 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 
 ```js
 const people = [
-  { name: "Layla", age: 16 },
-  { name: "Miya", age: 20 },
+  { name: "Jin", age: 16 },
+  { name: "Joe", age: 20 },
 ];
 
-console.log(people[0].name); // Layla
+console.log(people[0].name); // Jin
 console.log(people[1].age); // 20
 ```
 
 ### Output:
 
-> Layla <br> 20
+> Jin <br> 20
 
 ---
 
