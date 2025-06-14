@@ -275,7 +275,8 @@ console.log(greet("Jinro"));
 ### Code Example: **Arrow function** (short form)
 
 > [!Important]
-> **Arrow function shorthand** works only when returning a single expression.
+> **[English]** **Arrow function shorthand** works only when returning a single expression.<br>
+> **[Khmer]** **Arrow function shorthand** ដំណើរការតែនៅពេល return តម្លៃតែមួយប៉ុណ្ណោះ។ 
 
 ```js
 const greetShort = (name) => "Welcome mr." + name;
@@ -291,7 +292,8 @@ console.log(greetShort("Jame"));
 ### Code Example: **Arrow function** (long form)
 
 > [!Important]
-> If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.
+> **[English]** If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br>
+> **[Khmer]** ប្រសិនបើ **multiple statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
 
 ```js
 const greetArrow = (name) => {
