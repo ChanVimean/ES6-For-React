@@ -2,9 +2,9 @@
 
 > [!Note]
 > ### **[English]**</br>
-> ## A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
+> ### A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples.<br>
 > ### **[Khmer]**<br>
-> ## ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
+> ### ការណែនាំអំពី 'JavaScript' (ES6) ជាមួយនឹងការពន្យល់ និងឧទាហរណ៍។
 
 ## 📃 Lesson Titles
 
@@ -26,7 +26,7 @@
 ## 👉🏻 Description
 
 > [!Note]
-> **[English]** `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br>
+> **[English]** `JavaScript` provides three ways to declare variables: `var`, `let`, and `const`. Each has different rules about scope, re-declaration, and reassignment.<br><br>
 > **[Khmer]** ការប្រកាស `variables` ក្នុង `JavaScript` មាន 3 របៀប៖ `var`, `let`, និង `const`។ របៀបនីមួយៗមានច្បាប់ផ្សេងៗគ្នាអំពី ការប្រើប្រាស ការប្រកាសឡើងវិញ និងការចាត់តាំងឡើងវិញ។ 
 
 <br>
@@ -57,7 +57,7 @@ console.log(name);
 - ## `let`
 
 > [!Note]
-> **[English]** can be reassigned, but NOT re-declared in the same scope. Meaning you cannot declare the same variable name that already exist.<br>
+> **[English]** can be reassigned, but NOT re-declared in the same scope. Meaning you cannot declare the same variable name that already exist.<br><br>
 > **[Khmer]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
 
 > [!Caution]
@@ -115,7 +115,7 @@ console.log(age);
 > ## **[English]**<br>
 > - The `var` variable name is re-declared and updated from **"John"** to **"Jane"**, so the final value printed is **"Jane"**.
 > - The `let` variable username starts as **"john_doe**", then is reassigned to **"jane_doe"**, which is allowed. **Re-declaring** it in the same scope would cause an error.
-> - The `const` variable age is printed as 20. Trying to change it would cause an error.<br>
+> - The `const` variable age is printed as 20. Trying to change it would cause an error.<br><br>
 > ## **[Khmer]**<br>
 > - ការប្រកាសឈ្មោះ `name` ដោយប្រើ `var` យើងអាចកែរតម្លៃ និងធ្ការវើ override ឡើងវិញពី **"John"** ទៅ **"Jane"** បាន។ ដូច្នេះតម្លៃចុងក្រោយដែលបាន output គឺ **"Jane"**។
 > - ការប្រកាសឈ្មោះ `username` ដោយប្រើ `let`: ចាប់ផ្តើមជា **"john_doe**" បន្ទាប់មកត្រូវបានកែរតម្លៃឡើងវិញទៅ **"jane_doe"**។ **ការ​ប្រកាស​ឡើង​វិញ** ក្នុង `scope` ដូចគ្នា​នឹង​បង្ក​ឱ្យ​មាន​កំហុស (Error)។
@@ -156,14 +156,14 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** Learn how to access and manipulate `HTML elements` using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.<br>
+> **[English]** Learn how to access and manipulate `HTML elements` using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.<br><br>
 > **[Khmer]** ស្វែងយល់ពីរបៀបចូលប្រើ និងរៀបចំ`ធាតុ HTML` ដោយប្រើវិធីសាស្ត្រ JavaScript DOM ដូចជា `getElementById`, `getElementsByClassName`, `querySelector` និងច្រើនទៀត។
 
 <br>
 
 > [!Important]
 > ### Understand example flow below.<br>
-> **[English]** Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.<br>
+> **[English]** Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.<br><br>
 > **[Khmer]** សូមរកមើល `DOM Selector` នៅក្នុង **HTML** និង **ប្រៀបធៀប** ជាមួយ **JavaScript** ក្នុង `script tag` ដើម្បីជៀសវាងការភ័ន្តច្រឡំ។
 
 <br>
@@ -292,7 +292,7 @@ console.log(greetShort("Jame"));
 ### Code Example: **Arrow function** (long form)
 
 > [!Important]
-> **[English]** If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br>
+> **[English]** If the function body contains **multiple statements**, use curly braces `{}` and an explicit `return` **keyword**.<br><br>
 > **[Khmer]** ប្រសិនបើ **statements** មានច្រើន យើងប្រើ curly braket `{}` និង `return` ** keyword **។
 
 ```js
@@ -315,7 +315,7 @@ console.log(greetArrow("Bro"));
 ### 👉🏻 Description
 
 > [!Note]
-> **[English]** `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br>
+> **[English]** `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br><br>
 > **[Khmer]** `Arrays` អនុញ្ញាតឱ្យអ្នយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
 
 ---
@@ -351,7 +351,7 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 ### 📦 5.2 Arrays of Objects
 
 > [!Note]
-> **[English]** Useful when storing data like a list of people or products.
+> **[English]** Useful when storing data like a list of people or products.<br>
 > **[Khmer]** មានប្រយោជន៍នៅពេលរក្សាទុកទិន្នន័យដូចជាបញ្ជីមនុស្ស ឬផលិតផល។ 
 
 ### Code Example
@@ -405,7 +405,7 @@ console.log(personInfo.address.country); // Japan
 <br>
 
 > [!Important]
-> **[English]** Why use `curly bracket {}` rather than `square bracket []`? Because `{}` for **object** and `[]` for **arrays**.<br>
+> **[English]** Why use `curly bracket {}` rather than `square bracket []`? Because `{}` for **object** and `[]` for **arrays**.<br><br>
 > **[Khmer]** ហេតុអ្វីត្រូវប្រើ `curly bracket {}`ជាជាង`square bracket []`? ដោយសារតែ {} ប្រើសម្រាប់ **object** និង [] ប្រើសម្រាប់ **arrays**។
 
 ---
@@ -415,11 +415,11 @@ console.log(personInfo.address.country); // Japan
 ### 🛠️ 5.4 Array Methods
 
 > [!Note]
-> **[English]**
+> ## **[English]**
 > - In JavaScript, an `array method` is a `built-in` function that you can use to manipulate or work with **arrays**.<br>
 > - There are many **array method** such as `.push()`, `.pop()`, `.foreach()`, `.map()`, `.filter()`, etc.<br>
 > - We'll cover the 3 most used methods in React and other high-level frameworks.<br>
-> **[Khmer]**
+> ## **[Khmer]**
 > - ក្នុង JavaScript, **array method** គឺជា មុខងារ ដែលបានបង្កើតរួចហើយ `(built-in function)` ដែលអ្នកអាចប្រើដើម្បីបម្លែង ឬ ដំណើរការជាមួយ **arrays**។<br>
 > - មាន array methods ជាច្រើនដូចជា `.push()`, `.pop()`, `.forEach()`, `.map()`, `.filter()` និងច្រើនទៀត។<br>
 > - យើងនឹងរៀនពី `3 methods` ដែលត្រូវប្រើច្រើនបំផុតក្នុង `React` និង `framework` កម្រិតខ្ពស់ផ្សេងទៀត។
