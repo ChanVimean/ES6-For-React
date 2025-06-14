@@ -315,7 +315,8 @@ console.log(greetArrow("Bro"));
 ### 👉🏻 Description
 
 > [!Note]
-> `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.
+> **[English]** `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br>
+> **[Khmer]** `Arrays` អនុញ្ញាតឱ្យអ្នយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
 
 ---
 
@@ -324,7 +325,8 @@ console.log(greetArrow("Bro"));
 ### 👥 5.1 Basic Arrays
 
 > [!Note]
-> You can store `strings`, `numbers`, or `any` data types in arrays.
+> **[English]** You can store `strings`, `numbers`, or `any` data types in arrays.<br>
+> **[Khmer]** អ្នកអាចរក្សាទុក `អក្សរ` `លេខ` ឬ `ប្រភេទទិន្នន័យណាមួយ” នៅក្នុង Array។
 
 ### Code Example
 
@@ -349,7 +351,8 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 ### 📦 5.2 Arrays of Objects
 
 > [!Note]
-> Useful when storing data like a list of people or products.
+> **[English]** Useful when storing data like a list of people or products.
+> **[Khmer]** មានប្រយោជន៍នៅពេលរក្សាទុកទិន្នន័យដូចជាបញ្ជីមនុស្ស ឬផលិតផល។ 
 
 ### Code Example
 
