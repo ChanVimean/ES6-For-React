@@ -1,8 +1,8 @@
 # 📘 JavaScript ES6+ Quick Reference
 
-### **[EN]**
-
-A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples. Useful for learners, reviewers, and instructors.
+> [!Note]
+> **EN**
+> A concise guide to modern `JavaScript` (ES6 and beyond), with explanations and code examples. Useful for learners, reviewers, and instructors.
 
 ### **[KH]**
 
