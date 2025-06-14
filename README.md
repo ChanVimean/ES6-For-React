@@ -61,7 +61,7 @@ console.log(name);
 > **[Khmer]** អាចចាត់តាំងឡើងវិញបាន ប៉ុន្តែមិនអាចប្រកាសឡើងវិញបានទេ។ មានន័យថា យើងមិនអាចយក `variable` ដែលប្រកាសម្តងហើយមកបង្កើតម្តងទៀតបានទេ។
 
 > [!Caution]
-> ❌ SyntaxError: Identifier 'username' has already been declared. <br><br>
+> ❌ SyntaxError: Identifier 'username' has already been declared. <br>
 > 👉🏻 **[English]** This mean you cannot `declare` using the same `variable name` but you can `override` the value.<br>
 > 👉🏻 **[Khmer]** នេះមានន័យថាអ្នកមិនអាច 'ប្រកាស variable' ដោយប្រើ 'ឈ្មោះ variable' ដូចគ្នា ប៉ុន្តែអ្នកអាច 'override' តម្លៃ។ 
 
