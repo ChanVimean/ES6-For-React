@@ -156,12 +156,15 @@ console.log(fullName);
 ### 👉🏻 Description
 
 > [!Note]
-> Learn how to access and manipulate HTML elements using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.
+> **[English]** Learn how to access and manipulate `HTML elements` using JavaScript DOM methods like `getElementById`, `getElementsByClassName`, `querySelector`, and more.<br>
+> **[Khmer]** ស្វែងយល់ពីរបៀបចូលប្រើ និងរៀបចំ`ធាតុ HTML` ដោយប្រើវិធីសាស្ត្រ JavaScript DOM ដូចជា `getElementById`, `getElementsByClassName`, `querySelector` និងច្រើនទៀត។
 
 <br>
 
 > [!Important]
-> Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.
+> ### Understand example flow below.<br>
+> **[English]** Please look out for `DOM Selector` in **HTML** and **compare** with **JavaScript** in `script tag` to avoid confusion.<br>
+> **[Khmer]** សូមរកមើល `DOM Selector` នៅក្នុង **HTML** និង **ប្រៀបធៀប** ជាមួយ **JavaScript** ក្នុង `script tag` ដើម្បីជៀសវាងការភ័ន្តច្រឡំ។
 
 <br>
 
