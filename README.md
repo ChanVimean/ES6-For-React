@@ -93,7 +93,6 @@ console.log(username);
 
 > [!Caution]
 > ❌ TypeError: Assignment to constant variable. <br><br>
-
 > 👉🏻 **[English]** This mean the value is **fixed** and cannot be change or override.<br>
 > 👉🏻 **[Khmer]** នេះមានន័យថាតម្លៃគឺ **Fixed** ហើយមិនអាចផ្លាស់ប្តូរ ឬ override បានទេ។
 
