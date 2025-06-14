@@ -377,7 +377,8 @@ console.log(people[1].age); // 20
 ### 🧩 5.3 Nested Objects in Arrays
 
 > [!Note]
-> You can nest objects inside other objects for complex data structures.
+> **[English]** You can nest objects inside other objects for complex data structures.<br>
+> **[Khmer]**  យើងអាចដាក់វត្ថុនៅខាងក្នុងវត្ថុផ្សេងទៀតសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យស្មុគស្មាញ។
 
 ### Code Example
 
@@ -401,6 +402,12 @@ console.log(personInfo.address.country); // Japan
 
 > Tokyo <br> 20YT <br> Japan
 
+<br>
+
+> [!Important]
+> **[English]** Why use `curly bracket {}` rather than `square bracket []`? Because `{}` for **object** and `[]` for **arrays**.<br>
+> **[Khmer]** ហេតុអ្វីត្រូវប្រើ `curly bracket {}`ជាជាង`square bracket []`? ដោយសារតែ {} ប្រើសម្រាប់ **object** និង [] ប្រើសម្រាប់ **arrays**។
+
 ---
 
 <br>
@@ -408,32 +415,18 @@ console.log(personInfo.address.country); // Japan
 ### 🛠️ 5.4 Array Methods
 
 > [!Note]
-> Transforms every item in an array and returns a new array.
-
-### Code Example
-
-```js
-const students = [
-  { name: "Alice", subject: "C#", score: 85 },
-  { name: "Bob", subject: "C++", score: 55 },
-];
-
-const result = students.map((student) => {
-  return `name: ${student.name} - subject: ${student.subject}`;
-});
-
-console.log(result);
-```
-
-### Output:
-
-> ["name: Alice - subject: C#", "name: Bob - subject: C++"]
-
----
+> **[English]**
+> - In JavaScript, an `array method` is a `built-in` function that you can use to manipulate or work with **arrays**.<br>
+> - There are many **array method** such as `.push()`, `.pop()`, `.foreach()`, `.map()`, `.filter()`, etc.<br>
+> - We'll cover the 3 most used methods in React and other high-level frameworks.<br>
+> **[Khmer]**
+> - ក្នុង JavaScript, **array method** គឺជា មុខងារ ដែលបានបង្កើតរួចហើយ `(built-in function)` ដែលអ្នកអាចប្រើដើម្បីបម្លែង ឬ ដំណើរការជាមួយ **arrays**។<br>
+> - មាន array methods ជាច្រើនដូចជា `.push()`, `.pop()`, `.forEach()`, `.map()`, `.filter()` និងច្រើនទៀត។<br>
+> - យើងនឹងរៀនពី `3 methods` ដែលត្រូវប្រើច្រើនបំផុតក្នុង `React` និង `framework` កម្រិតខ្ពស់ផ្សេងទៀត។
 
 <br>
 
-### 🔄 5. Array Methods - map()
+### 🔄 5.4.1 Array Methods - map()
 
 > [!Important]
 > Transforms every item in an array and returns a new array.
@@ -461,7 +454,7 @@ console.log(result);
 
 <br>
 
-### ✅ 5. Array Methods - filter()
+### ✅ 5.4.2 Array Methods - filter()
 
 > [!Important]
 > Filters items by condition and returns a new array with the matches.
@@ -481,7 +474,7 @@ console.log(passed);
 
 <br>
 
-### 🔍 5. Array Methods = find()
+### 🔍 5.4.3 Array Methods = find()
 
 > [!Important]
 > Finds and returns the first match only (not all like filter).
