@@ -332,7 +332,7 @@ console.log(greetArrow("Bro"));
 > **[English]** <br>
 > `Arrays` allow you to store multiple values in a single variable. They are widely used for managing lists and collections.<br><br>
 > **[Khmer]** <br>
-> `Arrays` អនុញ្ញាតឱ្យអ្នយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
+> `Arrays` អនុញ្ញាតឱ្យអ្នកយើងរក្សាទុកតម្លៃជាច្រើននៅក្នុង variable តែមួយ។ ពួកវាត្រូវបានគេប្រើយ៉ាងទូលំទូលាយសម្រាប់ការគ្រប់គ្រងបញ្ជី និងការប្រមូល។
 
 ---
 
