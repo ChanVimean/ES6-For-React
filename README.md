@@ -286,7 +286,7 @@ console.log(greet("Jinro"));
 
 > [!Important]
 > **[English]** <br>
-> **Arrow function shorthand** works only when returning a single expression.<br>
+> **Arrow function shorthand** works only when returning a single expression.<br><br>
 > **[Khmer]** <br>
 > **Arrow function shorthand** ដំណើរការតែនៅពេល return តម្លៃតែមួយប៉ុណ្ណោះ។ 
 
@@ -342,7 +342,7 @@ console.log(greetArrow("Bro"));
 
 > [!Note]
 > **[English]** <br>
-> You can store `strings`, `numbers`, or `any` data types in arrays.<br>
+> You can store `strings`, `numbers`, or `any` data types in arrays.<br><br>
 > **[Khmer]** <br>
 > អ្នកអាចរក្សាទុក `អក្សរ` `លេខ` ឬ `ប្រភេទទិន្នន័យណាមួយ” នៅក្នុង Array។
 
@@ -370,7 +370,7 @@ console.log(mixedArray); // ["Hello", 42, true, null]
 
 > [!Note]
 > **[English]** <br>
-> Useful when storing data like a list of people or products.<br>
+> Useful when storing data like a list of people or products.<br><br>
 > **[Khmer]** <br>
 > មានប្រយោជន៍នៅពេលរក្សាទុកទិន្នន័យដូចជាបញ្ជីមនុស្ស ឬផលិតផល។ 
 
@@ -398,7 +398,7 @@ console.log(people[1].age); // 20
 
 > [!Note]
 > **[English]** <br>
-> You can nest objects inside other objects for complex data structures.<br>
+> You can nest objects inside other objects for complex data structures.<br><br>
 > **[Khmer]** <br>
 > យើងអាចដាក់វត្ថុនៅខាងក្នុងវត្ថុផ្សេងទៀតសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យស្មុគស្មាញ។
 
@@ -454,7 +454,7 @@ console.log(personInfo.address.country); // Japan
 
 > [!Important]
 > **[English]** <br>
-> Transforms every item in an array and returns a new **array**.<br>
+> Transforms every item in an array and returns a new **array**.<br><br>
 > **[Khmer]** <br>
 > បំប្លែងធាតុនីមួយៗក្នុង **array** មួយ ហើយត្រឡប់ **array** ថ្មី។
 
@@ -485,7 +485,7 @@ console.log(result);
 
 > [!Important]
 > **[English]** <br>
-> `Filter` checks each item and keeps the ones that match the condition. It gives you a new **array** with those matching items.<br>
+> `Filter` checks each item and keeps the ones that match the condition. It gives you a new **array** with those matching items.<br><br>
 > **[Khmer]** <br>
 > `filter` ពិនិត្យរាល់ធាតុក្នុង **array** ហើយរកតែធាតុដែលត្រូវនឹងលក្ខខណ្ឌ។ វាបញ្ជូនចេញជា array ថ្មី ដែលមានតែធាតុដែលត្រូវនឹងលក្ខខណ្ឌប៉ុណ្ណោះ។
 
@@ -508,7 +508,7 @@ console.log(passed);
 
 > [!Important]
 > **[English]** <br>
-> `find()` checks each item and returns the first one that matches the condition. If nothing matches, it returns `undefined`. <br>
+> `find()` checks each item and returns the first one that matches the condition. If nothing matches, it returns `undefined`. <br><br>
 > **[Khmer]** <br>
 > `find()` ពិនិត្យរាល់ធាតុក្នុង **array** ហើយ **return** តែ ធាតុដំបូង ដែលផ្គូផ្គងនឹងលក្ខខណ្ឌ។ ប្រសិនបើមិនមានធាតុណាដែលផ្គូផ្គងទេ វាត្រឡប់ `undefined`។
 
@@ -533,7 +533,7 @@ console.log(failed);
 
 > [!Note]
 > **[English]** <br>
-> This document shows how to use `destructuring` in JavaScript to get values from `arrays` and `objects` more easily. <br>
+> This document shows how to use `destructuring` in JavaScript to get values from `arrays` and `objects` more easily. <br><br>
 > **[Khmer]** <br>
 > ឯកសារនេះបង្ហាញពីវិធីប្រើ `destructuring` ក្នុង JavaScript ដើម្បីដកទិន្នន័យពី `arrays` និង `objects` ឱ្យបានងាយស្រួលជាងមុន។
 
@@ -690,6 +690,25 @@ chore3(); // Starts and waits 0.5s (in background)
 
 > Task 3 completed <br> Task 1 completed <br> Task 2 completed
 
+<br>
+
+> [!Tip]
+> # 🏁 Async Analogy: The Race
+> ## **[English]** <br>
+> Imagine 4 people are running a race. Some of them get a head start, while others start later. But here's the twist: <br>
+> **just because someone starts first doesn't mean they finish first.** <br>
+> Each runner takes a different amount of time to reach the finish line — maybe someone runs faster, or someone slows down halfway. <br>
+> At the end, they all reach the finish line, but not in the order they started. <br>
+> ### 👉 This is how `asynchronous` code works: <br>
+> ### `Multiple tasks` start running, and each `finishes` when it’s `done`, not necessarily in the `order` they were written.
+> ## **[Khmer]** <br>
+> ស្រមៃថាមានមនុស្ស ៤ នាក់កំពុងប្រណាំង។ មានមួយចំនួនចាប់ផ្ដើមមុន ហើយមួយចំនួនចាប់ផ្ដើមក្រោយ។ ប៉ុន្តែចំណុចសំខាន់គឺ៖ <br>
+> **មិនមានការធានាថាអ្នកចាប់ផ្ដើមមុននឹងទៅដល់គោលដៅមុនទេ។** <br>
+> អ្នករត់នីមួយៗចំណាយពេល ខុសគ្នា ដើម្បីឈានដល់គោលដៅ — អ្នកខ្លះអាចរត់លឿន ឬយឺត។ <br>
+> ចុងក្រោយនេះ គេ ទាំងអស់នឹងដល់គោលដៅ ប៉ុន្តែ មិនចាំបាច់តាមលំដាប់ដែលបានចាប់ផ្ដើម។ <br>
+> ### 👉 នេះហើយជាវិធីដែល `asynchronous` **code** ដំណើរការ៖ <br>
+> ការងារច្រើនចាប់ផ្ដើមដំណើរការជាមួយគ្នា ហើយការងារនីមួយៗនឹងបញ្ចប់ នៅពេលវាធ្វើការចប់ — មិនចាំបាច់តាមលំដាប់ក្នុងកូដទេ។
+
 ---
 
 <br><br>
@@ -720,7 +739,7 @@ chore3(); // Starts and waits 0.5s (in background)
 
 > [!Note]
 > **[English]** <br>
-> Used to `export` a single value from a **module** — this is called the `default export`.<br>
+> Used to `export` a single value from a **module** — this is called the `default export`.<br><br>
 > **[Khmer]** <br>
 > ប្រើសម្រាប់ `export` តែមួយតម្លៃពី **module** មួយ ហៅថា `default export`។
 
@@ -752,7 +771,7 @@ console.log(add(2, 3));  // 5
 
 > [!Note]
 > **[English]** <br>
-> Used to export` multiple values` from a **module**. These are called named `export` and are `import` using` {}`. <br>
+> Used to export` multiple values` from a **module**. These are called named `export` and are `import` using` {}`. <br><br>
 > **[Khmer]** <br>
 > ប្រើសម្រាប់ `export` តម្លៃ ច្រើន ពី **module** តែមួយ។ វាត្រូវបានហៅថា `export` ហើយត្រូវ `import` ជាមួយ `{}`។
 
@@ -775,6 +794,7 @@ import { PI, greeting } from "./math.js";
 
 console.log(PI);                // 3.14
 console.log(greeting("Alice")); // Hello, Alice!
+
 ```
 
 ### Output:
