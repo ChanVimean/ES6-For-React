@@ -400,7 +400,7 @@ console.log(people[1].age); // 20
 > **[English]** <br>
 > You can nest objects inside other objects for complex data structures.<br><br>
 > **[Khmer]** <br>
-> យើងអាចដាក់វត្ថុនៅខាងក្នុងវត្ថុផ្សេងទៀតសម្រាប់រចនាសម្ព័ន្ធទិន្នន័យស្មុគស្មាញ។
+> យើងអាចដាក់ **objects** នៅខាងក្នុង **objects** ផ្សេងទៀតសម្រាប់ **complex data structures**។
 
 ### Code Example
 
