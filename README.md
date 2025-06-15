@@ -492,6 +492,11 @@ console.log(result);
 ### Code Example
 
 ```js
+const students = [
+  { name: "Alice", subject: "C#", score: 85 },
+  { name: "Bob", subject: "C++", score: 55 },
+];
+
 const passed = students.filter((student) => student.score >= 60);
 console.log(passed);
 ```
@@ -515,6 +520,11 @@ console.log(passed);
 ### Code Example
 
 ```js
+const students = [
+  { name: "Alice", subject: "C#", score: 85 },
+  { name: "Bob", subject: "C++", score: 55 },
+];
+
 const failed = students.find((student) => student.score < 60);
 console.log(failed);
 ```
