@@ -453,7 +453,10 @@ console.log(personInfo.address.country); // Japan
 ### 🔄 5.4.1 Array Methods - map()
 
 > [!Important]
-> Transforms every item in an array and returns a new array.
+> **[English]** <br>
+> Transforms every item in an array and returns a new **array**.<br>
+> **[Khmer]** <br>
+> បំប្លែងធាតុនីមួយៗក្នុង **array** មួយ ហើយត្រឡប់ **array** ថ្មី។
 
 ### Code Example
 
@@ -481,7 +484,10 @@ console.log(result);
 ### ✅ 5.4.2 Array Methods - filter()
 
 > [!Important]
-> Filters items by condition and returns a new array with the matches.
+> **[English]** <br>
+> `Filter` checks each item and keeps the ones that match the condition. It gives you a new **array** with those matching items.<br>
+> **[Khmer]** <br>
+> `filter` ពិនិត្យរាល់ធាតុក្នុង **array** ហើយរកតែធាតុដែលត្រូវនឹងលក្ខខណ្ឌ។ វាបញ្ជូនចេញជា array ថ្មី ដែលមានតែធាតុដែលត្រូវនឹងលក្ខខណ្ឌប៉ុណ្ណោះ។
 
 ### Code Example
 
@@ -501,7 +507,10 @@ console.log(passed);
 ### 🔍 5.4.3 Array Methods = find()
 
 > [!Important]
-> Finds and returns the first match only (not all like filter).
+> **[English]** <br>
+> `find()` checks each item and returns the first one that matches the condition. If nothing matches, it returns `undefined`. <br>
+> **[Khmer]** <br>
+> `find()` ពិនិត្យរាល់ធាតុក្នុង **array** ហើយ **return** តែ ធាតុដំបូង ដែលផ្គូផ្គងនឹងលក្ខខណ្ឌ។ ប្រសិនបើមិនមានធាតុណាដែលផ្គូផ្គងទេ វាត្រឡប់ `undefined`។
 
 ### Code Example
 
@@ -523,7 +532,10 @@ console.log(failed);
 ### 👉🏻 Description
 
 > [!Note]
-> This document demonstrates how to use `destructuring` in `JavaScript` with `arrays` and `objects`.
+> **[English]** <br>
+> This document shows how to use `destructuring` in JavaScript to get values from `arrays` and `objects` more easily. <br>
+> **[Khmer]** <br>
+> ឯកសារនេះបង្ហាញពីវិធីប្រើ `destructuring` ក្នុង JavaScript ដើម្បីដកទិន្នន័យពី `arrays` និង `objects` ឱ្យបានងាយស្រួលជាងមុន។
 
 <br>
 
@@ -597,7 +609,10 @@ console.log(userCity); // "Paris"
 ### 👉🏻 Description
 
 > [!Note]
-> `JavaScript` runs code line by line. Normally, it executes tasks one at a time — this is called `synchronous` execution. But in real-world applications (like APIs or user actions), we use `asynchronous` behavior to avoid blocking the program.
+> ## **[English]** <br>
+> **JavaScript** runs code line by line. Normally, it executes tasks one at a time — this is called `synchronous` execution. But in real-world applications **(like APIs or user actions)**, we use `asynchronous` behavior to avoid `blocking` the program. <br>
+> ## **[Khmer]** <br>
+> **JavaScript** run code មួយជួរដោយលំដាប់ — ហៅថា `synchronous។` ប៉ុន្តែក្នុងការប្រើប្រាស់ពិតប្រាកដ **(ដូចជាការហៅ API ឬការរង់ចាំ)** យើងប្រើ `asynchronous` ដើម្បីឲ្យកម្មវិធីបន្តដំណើរការបានដោយមិនបង្ហាប់ `blocking`។
 
 ---
 
@@ -606,30 +621,27 @@ console.log(userCity); // "Paris"
 ### ⏱️ 7.1 Synchronous
 
 > [!Note]
-> This runs each task **one after another**, blocking the next one from starting until the current finishes.
+> ## **[English]** <br>
+> `Synchronous` means each task runs one after another. The next task waits until the current one is completely finished. <br>
+> ## **[Khmer]** <br>
+> `Synchronous` មានន័យថា ការងារនីមួយៗត្រូវដំណើរការ ក្រោយគ្នា។ ការងារបន្ទាប់ត្រូវរង់ចាំរហូតដល់ការងារបច្ចុប្បន្នបញ្ចប់សិនទើបអាចបន្តទៅមុខទៀតបាន។
 
 ```js
 const task1 = () => {
-  const start = Date.now();
-  while (Date.now() - start < 1000) {} // wait 1s
-  console.log("Task 1 completed");
+  console.log("Task 1");
 };
 
 const task2 = () => {
-  const start = Date.now();
-  while (Date.now() - start < 2000) {} // wait 2s
-  console.log("Task 2 completed");
+  console.log("Task 2");
 };
 
 const task3 = () => {
-  const start = Date.now();
-  while (Date.now() - start < 500) {} // wait 0.5s
-  console.log("Task 3 completed");
+  console.log("Task 3");
 };
 
-task1(); // Takes 1s
-task2(); // Then takes 2s
-task3(); // Then takes 0.5s
+task1();
+task2();
+task3();
 ```
 
 ### Output:
@@ -643,9 +655,12 @@ task3(); // Then takes 0.5s
 ### ⏱️ 7.2 Asynchronous (async/await)
 
 > [!Note]
-> This version lets tasks run in the background. The program doesn’t wait — it keeps moving.
+> ## **[English]** <br>
+> In `asynchronous` code, tasks can **run** in the **background**. The program doesn’t stop or wait — it keeps going and handles results when they’re ready. <br>
+> ## **[Khmer]** <br>
+> `asynchronous` អនុញ្ញាតឲ្យ **code** run នៅក្រោយជា **background**។ **Program** មិនបង្ហាប់ដើម្បីរង់ចាំទេ វាបន្តដំណើរការហើយដោះស្រាយលទ្ធផលនៅពេលដែលរួចរាល់។
 
-### Code Example
+### Code Example 1
 
 ```js
 const chore1 = () => {
@@ -684,12 +699,18 @@ chore3(); // Starts and waits 0.5s (in background)
 ### 👉🏻 Description
 
 > [!Note]
-> `Modules` allow you to split `JavaScript` code into `multiple files` and `share variables`, `functions`, or `classes` between them.
+> ## **[English]** <br>
+> `Modules` let you `split` your JavaScript code into `multiple files`. You can `share variables`, `functions`, or `classes` between these **files** easily. <br>
+> ## **[Khmer]** <br>
+> `Modules` អនុញ្ញាតឲ្យអ្នកបែងចែកកូដ **JavaScript** ជាច្រើន **Files** ។ អ្នកអាចចែករំលែក `variables`, `functions` ឬ `classes` រវាង **files** ទាំងនោះបានយ៉ាងងាយស្រួល។
 
 <br>
 
 > [!Important]
-> This section require `multiple files` because we will be `exporting` and `importing` from other **files** 📁.
+> ## **[English]** <br>
+> This section **requires** using `multiple files` because we will be `exporting` and `importing` code between different **files** 📁. <br>
+> ## **[Khmer]** <br>
+> **Section** នេះត្រូវការប្រើ `files` ច្រើន ពីព្រោះយើងនឹង `export` និង `import` កូដពី **files** ផ្សេងៗ 📁 ។
 
 ---
 
@@ -698,27 +719,30 @@ chore3(); // Starts and waits 0.5s (in background)
 ### 8.1 Single **export** & **import**
 
 > [!Note]
-> Used to export a `single` value (default export).
+> **[English]** <br>
+> Used to `export` a single value from a **module** — this is called the `default export`.<br>
+> **[Khmer]** <br>
+> ប្រើសម្រាប់ `export` តែមួយតម្លៃពី **module** មួយ ហៅថា `default export`។
 
-### 🗂️ File: **utils.js**
+### 🗂️ File: **utils.js** (other file)
 
 ```js
-export const add = (a, b) => a + b;
-export const subtract = (a, b) => a - b;
+const add = (a, b) => a + b;
+
+export default add;
 ```
 
-### 🗂️ File: **index.js**
+### 🗂️ File: **index.js** (main file)
 
 ```js
-import { add, subtract } from "./utils.js";
+import add from "./utils.js";
 
-console.log(add(2, 3));
-console.log(subject(5, 10));
+console.log(add(2, 3));  // 5
 ```
 
 ### Output:
 
-> 5 <br> -5
+> 5
 
 ---
 
@@ -727,9 +751,12 @@ console.log(subject(5, 10));
 ### 8.2 Multiple **export** & **import**
 
 > [!Note]
-> Used to export a `multiple` values.
+> **[English]** <br>
+> Used to export` multiple values` from a **module**. These are called named `export` and are `import` using` {}`. <br>
+> **[Khmer]** <br>
+> ប្រើសម្រាប់ `export` តម្លៃ ច្រើន ពី **module** តែមួយ។ វាត្រូវបានហៅថា `export` ហើយត្រូវ `import` ជាមួយ `{}`។
 
-### 🗂️ File: **math.js**
+### 🗂️ File: **math.js** (other file)
 
 ```js
 export const PI = 3.14;
@@ -741,13 +768,13 @@ export function greeting(name) {
 
 ---
 
-### 🗂️ File: **index.js**
+### 🗂️ File: **index.js** (main file)
 
 ```js
 import { PI, greeting } from "./math.js";
 
-console.log(PI);
-console.log(greeting("Alice"));
+console.log(PI);                // 3.14
+console.log(greeting("Alice")); // Hello, Alice!
 ```
 
 ### Output:
